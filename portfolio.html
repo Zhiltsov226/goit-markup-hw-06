@@ -15,18 +15,43 @@
     <!--шапка-2-->
     <header>
         <div class="container  main-div">
-        <nav class="nav-header">
-            <a href="./" lang="en" class="logo">Web<span class="logotip">Studio</span>
+        <nav>
+            <a href="./" lang="en" class="logo-head">
+                Web
+                <span class="logotip"> Studio</span>
+            </a>
+
             <ul class="site-nav">
-                    <li class="iteam-header"><a class="link" href="./index.html">Студия</a></li>
-                    <li class="iteam-header"><a class="link-active-styles  current" href="">Портфолио</a></li>
-                    <li class="iteam-header"><a class="link" href="">Контакты</a></li>
+                    <li class="iteam-header">
+                        <a class="link" href="./index.html">Студия</a>
+                    </li>
+                    <li class="iteam-header">
+                        <a class="link-active-styles  current " href="">Портфолио</a>
+                    </li>
+                    <li class="iteam-header">
+                        <a class="link" href="">Контакты</a>
+                    </li>
                 </ul>
               
           </nav>
                 <ul class="auth-nav">
-                    <li class="iteam-header"><a class="link-mail" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                    <li class="iteam-header"><a class="link-tel" href="tel:+380961111111">+380961111111</a></li>
+                    <li class="iteam-header">
+                        <a class="link-mail" href="mailto:info@devstudio.com">
+                        <svg class="icon-mail">
+                            <use href="./images/svg/tel/symbol-defs.svg#icon-envelope"></use>
+                        </svg>
+                        info@devstudio.com
+                       </a> 
+                   </li>
+                    <li class="iteam-header">
+                        <a class="link-tel" href="tel:+380961111111">
+                            <svg class="icon-tel">
+                                <use  href="./images/svg/tel/symbol-defs.svg#icon-Vector"></use>
+                            </svg>
+                            +38 096 111 11 11
+                        </a>
+                     
+                       </li>
                 </ul>  
             </div>  
     </header>
@@ -36,20 +61,11 @@
              <!--Контент-->
              <ul class="section-auth">
 
-               <li class="button-main">
-                   <button class="link-active-button">Все</button>
-            </li>
-               <li class="button-main"><button class="button">Веб-сайты</button>
-            </li>
-               <li class="button-main">
-                   <button class="button">Приложения</button>
-            </li>
-               <li class="button-main">
-                   <button class="button">Дизайе</button>
-            </li>
-               <li class="button-main">
-                   <button class="button">Маркетинг</button>
-            </li>
+               <li class="button-main"><button class="link-active-button">Все</button></li>
+               <li class="button-main"><button class="button">Веб-сайты</button></li>
+               <li class="button-main"><button class="button">Приложения</button></li>
+               <li class="button-main"><button class="button">Дизайн</button></li>
+               <li class="button-main"><button class="button">Маркетинг</button></li>
                 </ul>
             
           
@@ -61,7 +77,7 @@
                     
                     <li class="flex-element">
                         <div class="box">
-                     <a class="portfolio-li" href="./images/technocryk.jpg"><img src="./images/technocryk.jpg" width="370" alt="технокряк"/>
+                     <a class="h-over" href="./images/technocryk.jpg"><img src="./images/technocryk.jpg" width="370" alt="технокряк"/>
                      
                         <div class="overlay">
                             <p>Технокряк это современная площадка распространения коронавируса. 
@@ -80,87 +96,80 @@
                
                   <li class="flex-element">
                     <div>
-                      <a class="portfolio-li" href="./images/sport.jpg"><img src="./images/sport.jpg" width="370" alt="спорт"/>
+                      <a href="./images/sport.jpg"><img src="./images/sport.jpg" width="370" alt="спорт"/></a>
                     </div>
                          <div class="img-port">
                             <h3 class="star">Постер New Orlean vs Golden Star</h3>
                                <p class="link-title-por">Дизайн</p>
                     </div>
-                    </a>
                   </li> 
                     
                    
                   <li class="flex-element">
                     <div>          
-                      <a class="portfolio-li" href="./images/fish.jpg"><img src="./images/fish.jpg" width="370" alt="рыба"/>
+                      <a href="./images/fish.jpg"><img src="./images/fish.jpg" width="370" alt="рыба"/></a>
                              <h3 class="h-portofolio">Ресторан Seafood</h3>
                              <p class="link-title-por">Приложение</p>
-                    </div>  
-                         </a> 
+                    </div>        
                    </li>
                    
                      
                     <li class="flex-element">  
                         <div>
-                        <a class="portfolio-li" href="./images/headphones.jpg"><img src="./images/headphones.jpg" width="370" alt="наушники"/>
+                        <a href="./images/headphones.jpg"><img src="./images/headphones.jpg" width="370" alt="наушники"/></a>
                                  <h3 class="h-portofolio">headphones</h3>
                                <p class="link-title-por">Маркетинг</p>
-                        </div>  
-                             </a>
+                        </div>       
                     </li> 
                     <li class="flex-element"> 
                         <div>    
-                      <a class="portfolio-li" href="./images/box.jpg"><img src="./images/box.jpg" width="370" alt="коробка"/>
+                      <a href="./images/box.jpg"><img src="./images/box.jpg" width="370" alt="коробка"/></a> 
                               <h3 class="h-portofolio">Маркетинг</h3>  
                               <p class="link-title-por">Приложение</p>
                               </div>  
-                              </a> 
                     </li>
                     
                     
                     <li class="flex-element">  
                         <div>        
-                       <a class="portfolio-li" href="./images/monitor.jpg"><img src="./images/monitor.jpg"   width="370" alt="монитор"/>
+                       <a href="./images/monitor.jpg"><img src="./images/monitor.jpg"   width="370" alt="монитор"/></a>
                                 <h3 class="h-portofolio">Inspiration has no Borders</h3>  
                               <p class="link-title-por">Веб-сайт</p>
                               </div>
-                              </a>
                     </li>
                   
                      
                     <li class="flex-element"> 
                         <div>                                
-                      <a class="portfolio-li" href="./images/books.jpg"><img src="./images/books.jpg"  width="370" alt="книги"/> 
+                      <img src="./images/books.jpg"  width="370" alt="книги"/> 
                                <h3 class="h-portofolio">Издание Limited Edition</h3>
                                <p class="link-title-por">Дизайн</p>
                          </div>
-                             </a>
                      </li> 
                     
                      <li
                      class="flex-element">
                         <div>
-                         <a class="portfolio-li" href="./images/trinket.jpg"><img src="./images/trinket.jpg" width="370" alt="брелок"/>
+                         <a href="./images/trinket.jpg"><img src="./images/trinket.jpg" width="370" alt="брелок"/></a>
                                     <h3 class="h-portofolio">Проект LAB</h3> 
                                       <p class="link-title-por">Маркетинг</p>
                          </div>
-                         </a>
                      </li>
                     
                     
                      <li class="flex-element">
                         <div>
-                         <a class="portfolio-li" href="./images/nootbook.jpg"><img src="./images/nootbook.jpg" width="370" alt="ноутбук"/>
+                         <a href="./images/nootbook.jpg"><img src="./images/nootbook.jpg" width="370" alt="ноутбук"/></a>
                                     <h3 class="h-portofolio">Growing Business</h3>
                                     <p class="link-title-por">Приложение</p>
                         </div>
-                        </a>
                      </li> 
                   
                         
                        
                     
               </ul>
+            </div>
               </div>
          </section>
      </main>
@@ -171,6 +180,7 @@
                 <div class="fot-conteiner">
                     <div class="addres">
                         <a href="./" lang="en" class="logo">Web<span class="logo-white">Studio</span>
+                                  
                          <address>
                              <ul class="footer-way">
                         <li class="ukr"><span class="siti">г. Киев, пр-т Леси Украинки, 26</span></li>
@@ -180,10 +190,10 @@
                          </address>
                     </div>
                      <div class="join-icon">
-                       <div><h3 class="join">присоединяйтесь </h3></div>
+                       <h3 class="join">присоединяйтесь </h3>
                        <ul class="fot-ul-icon">
                         <li class="fot-icon">
-                            <a class="icon" href="" aria-label="ссылка на instagram">
+                            <a class="icon" href="https://www.instagram.com/" aria-label="ссылка на instagram">
                            <svg class="fot-svg-icon">
                                <use href="./images/svg/imgO/symbol-defs.svg#iconinstagram" ></use>
                            </svg>
@@ -192,7 +202,7 @@
                             
                         </li>
                         <li class="fot-icon">
-                            <a class="icon" href="" aria-label="ссылка на twitter">
+                            <a class="icon" href="https://www.twitter.com/" aria-label="ссылка на twitter">
                                 <svg class="fot-svg-icon">
                                 <use href="./images/svg/imgO/symbol-defs.svg#icontwitter" ></use>
                             </svg>
@@ -200,14 +210,14 @@
     
                         </li>
                         <li class="fot-icon">
-                            <a class="icon" href="" aria-label="ссылка на facebook">
+                            <a class="icon" href="https://www.facebook.com/" aria-label="ссылка на facebook">
                             <svg class="fot-svg-icon">
                                 <use href="./images/svg/imgO/symbol-defs.svg#iconfacebook" ></use>
                             </svg>
                         </a>
                             </li>
                         <li class="fot-icon">
-                            <a class="icon" href="" aria-label="ссылка на linkedin">
+                            <a class="icon" href="https://www.linkedin.com/" aria-label="ссылка на linkedin">
                                 <svg class="fot-svg-icon">
                                     <use href="./images/svg/imgO/symbol-defs.svg#iconlinkedin" ></use>
                                 </svg>
