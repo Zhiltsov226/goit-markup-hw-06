@@ -127,20 +127,30 @@
                   </div>
                 </div>
                 <div class="form-field">
-                  <label for="comment">Коментрий</label>
+                  <label for="modal-comment" class="for-lebel">Коментрий</label>
                   <textarea
+                    class="for-input for-comment"
                     name="comment"
-                    class="for-name for-comment"
-                    id="comment"
-                    rows="8"
+                    id="modal-comment"
+                    rows="6"
+                    placeholder="Введите текст"
                   ></textarea>
                 </div>
-                <input type="checkbox" name="policy" id="policy" />
-                <label for="policy"
-                  >Оставьте свои данные, мы вам перезвоним</label
-                >
-
-                <button class="bnt-modal" type="submit">Отправить</button>
+                <div class="form-polici">
+                  <label for="policy" class="policy-lebel">
+                    <input
+                      type="checkbox"
+                      name="policy"
+                      class="chexbox"
+                      checked
+                    />
+                    Соглашаюсь с рассылкой и принимаю
+                    <a href="#" class="current">Условия договора</a>
+                  </label>
+                </div>
+                <button class="bnt-modal primary" type="submit">
+                  Отправить
+                </button>
               </form>
             </div>
           </div>
