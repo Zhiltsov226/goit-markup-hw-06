@@ -443,6 +443,10 @@ h1 {
   width: 18px;
   height: 18px;
 }
+.svg-close:hover,
+.svg-close:focus {
+  fill: var(--active);
+}
 .modal-text {
   display: block;
   margin-bottom: 12px;
@@ -480,6 +484,7 @@ h1 {
   position: relative;
 }
 .form-field .title-input {
+  cursor: pointer;
   width: 448px;
   margin: 0;
   padding: 11px;
@@ -488,6 +493,10 @@ h1 {
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   transition: border-color 250ms var(--animation);
+}
+.input-block:hover,
+.input-blockt:focus {
+  color: var(--active);
 }
 .form-field .input-icon {
   position: absolute;
@@ -508,6 +517,7 @@ h1 {
   letter-spacing: 0.01em;
   color: var(--gray);
 }
+
 .policy-lebel {
   color: var(--gray);
 }
